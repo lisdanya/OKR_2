@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Times New Roman", Times, serif; /*шрифт текста*/
+    font-size: 12px; /*размер текста*/
+    color: #800000; /*цвет текста*/
+
+}
+
+body {
+    margin-top: 10px;
+    background: #282829;
+
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+.toolbar {
+    padding: 5px;
+    width: 100%;
+    background: #FFC300;
+
+}
+
+.noteList {
+    width: 100%;
+    height: calc(100vh - 65px);
+    background: #bbbbbb;
+}
+
+.text_area {
+    margin-top: 5px;
+    width: 100%;
+    height: calc(100vh - 65px);
+}
+
+
+.col-4 {
+    padding: 0;
+}
+
+.col-8 {
+    padding: 0;
+}
+
+.note_area {
+    width: 100%;
+    height: calc(100vh - 65px);
+    resize: none;
+    background: #808080;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+    font-family: "Times New Roman", Times, serif; /*шрифт текста*/
+    font-size: 20px; /*размер текста*/
+    color: whitesmoke; /*цвет текста*/
+}
+
+.note_area {
+    outline: none;
+    border: none;
+}
+
+.note {
+    background: #fff1a8;
+    height: 80px;
+}
+
+p {
+    margin: 5px;
+}
+
+h5 {
+    margin: 5px;
+}
+
+
+.true {
+    background: #ffdc2e;
+}
+
+#title {
+    background: #d1d5de;
+}

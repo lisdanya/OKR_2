@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/css.css"></head>
+<body>
+    <div class="container">
+        <div>
+            <div class="row">
+                <div class="toolbar">
+                    <div class="col">
+                        <button class="btn" id="add_btn">Add</button>
+                        <button class="btn" id="remove_btn">Remove</button>
+                        <button class="btn" id="clear_local">Clear</button>
+                        <input id="title" onkeyup="renameNote()" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row main">
+            <div class="col-4">
+                <div class="noteList" >
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="text_area">
+                    <textarea id="textArea" class="note_area" onkeyup="changeText()"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/script.js"></script>
+    <script src="src/test.js"></script>
+</body>
+</html>
+
