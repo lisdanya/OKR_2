@@ -1,39 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Note</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/css.css"></head>
+	<meta charset="UTF-8">
+	<title>ShinigamiStore</title>
+	<!-- Responsive starts here -->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/main.css">
+</head>
 <body>
-    <div class="container">
-        <div>
-            <div class="row">
-                <div class="toolbar">
-                    <div class="col">
-                        <button class="btn" id="add_btn">Add</button>
-                        <button class="btn" id="remove_btn">Remove</button>
-                        <button class="btn" id="clear_local">Clear</button>
-                        <input id="title" onkeyup="renameNote()" >
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row main">
-            <div class="col-4">
-                <div class="noteList" >
-                </div>
-            </div>
-            <div class="col-8">
-                <div class="text_area">
-                    <textarea id="textArea" class="note_area" onkeyup="changeText()"></textarea>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="src/script.js"></script>
-    <script src="src/test.js"></script>
+<header id="header" class="header">
+	<div class="container">
+		<div class="nav">
+			<img src="img/image_2020-10-16_16-46-09.png" alt="ShinigamiStore" class="logo">
+				<ul class="menu">
+					<li class="lil">
+						<a href="#">
+							Товары
+						</a>
+					</li>
+					<li class="lil">
+						<a href="#">
+							О магазине
+						</a>
+					</li>
+					<li class="lil">
+						<a href="#">
+							Оплата и доставка
+						</a>
+					</li>
+					<li class="burg_lil">
+						<button class="menu-open">
+							<img src="img/Hamburger_icon.svg.png" alt="Open menu">
+						</button>
+					</li>
+				</ul>
+
+				<ul class="socials">
+					<li class="soc_lil">
+						<a href="https://t.me/ShinigamiShop" target="_blank"><img class="soc" src="img/Telegram.jpg" alt="Telegram"></a>
+					</li>
+					<li class="soc_lil">
+						<a href="https://www.instagram.com/__yourzayka/" target="_blank"><img class="soc" src="img/instagram.jpg" alt="Instagram"></a>
+					</li>
+				</ul>
+		</div>
+		<div class="offer">
+			<p>
+				ShinigamiStore
+			</p>
+			<a href="#" class="btn">Товары</a>
+		</div>
+	</div>
+</header>
+
+<section id="about" class="about">
+	<div>
+		<a  id="idTop">
+			<img src="https://img2.freepng.ru/20180628/kjo/kisspng-computer-icons-arrow-symbol-contrast-5b35a5c37bc105.7011654215302424995069.jpg" alt="" class="arrow">
+		</a>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-1">
+				<img class="item" src="https://alanterz.com/image/cache/catalog/hoodies/Incurection%202.0-370x472.jpg"
+					 alt="">
+				<h4><a class="name" href="">Insurrection 2.0 Chain Black Hood </a></h4>
+				<div class="price">
+					<span class="price-new">1280 грн. </span>
+				</div>
+			</div>
+			<div class="col-2 ">
+				<img class="item" src="https://alanterz.com/image/cache/catalog/hoodies/Incurection%202.0-370x472.jpg"
+					 alt="">
+				<h4><a class="name" href="">Insurrection 2.0 Chain Black Hood </a></h4>
+				<div class="price">
+					<span class="price-new">1280 грн. </span>
+				</div>
+			</div>
+			<div class="col-3">
+				<img class="item" src="https://alanterz.com/image/cache/catalog/hoodies/Incurection%202.0-370x472.jpg"
+					 alt="">
+				<h4><a class="name" href="">Insurrection 2.0 Chain Black Hood </a></h4>
+				<div class="price">
+					<span class="price-new">1280 грн. </span>
+				</div>
+			</div>
+		</div>
+		<h2>О Нас</h2>
+		<div class="description">
+			<div class="desc-left">
+				<h3>Подходящий заголовок</h3>
+				<p>
+					Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа
+				</p>
+			</div>
+			<div class="desc-right">
+				<h3>Подходящий заголовок</h3>
+				<p>
+					Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа Подходящая инфа
+				</p>
+			</div>
+		</div>
+		<!--			<div class="gallery">-->
+		<!--				<img src="img/img1.jpg" alt="Event photo 1">-->
+		<!--				<img src="img/img2.jpg" alt="Event photo 2">-->
+		<!--				<img src="img/img3.jpg" alt="Event photo 3">-->
+		<!--			</div>-->
+	</div>
+</section>
+<footer id="footer" class="footer">
+	<div class="container">
+		<div class="footer-text">
+			<p><a href="mailto:vlad@htmlbook.ru?subject=Вопрос по HTML">Srihinigami@gmail.com</a></p>
+			<a href="#" class="faq">FAQs</a>
+			<a href="tel:+380508505004" class="tel">+38(050)850-50-04</a>
+		</div>
+	</div>
+</footer>
+<script src="src/script.js"></script>
+<script src="src/jQuery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </body>
 </html>
-
